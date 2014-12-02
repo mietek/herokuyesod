@@ -1,8 +1,10 @@
 {
-  "name": "Heroku Yesod",
-  "website": "https://github.com/rpaladugu1/herokuyesod",
+  "name": "Heroku/Yesod",
+  "description": "Example Haskell web application",
+  "logo": "https://haskellonheroku.com/logo.svg",
+  "repository": "https://github.com/mietek/herokuyesod",
   "env": {
-    "BUILDPACK_URL": "https://github.com/mietek/haskell-on-heroku.git"
+    "BUILDPACK_URL": "https://github.com/mietek/haskell-on-heroku"
   },
   "addons": [
     "heroku-postgresql:hobby-dev"
